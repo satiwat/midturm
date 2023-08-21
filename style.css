@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(49, 47, 47);
+  color: #fff;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-section > button {
+  height: 20px;
+  width: 80px;
+  border-radius: 20px;
+}
+
+.content-section {
+  text-align: center;
+}
+
+.myst-number {
+  height: 60px;
+  width: 60px;
+  margin: auto;
+  background-color: white;
+  color: black;
+  font-size: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-field {
+  height: 70px;
+  width: 70px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.check-btn {
+  display: block;
+  width: 75px;
+}
